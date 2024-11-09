@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(36, 33, 33);
+    background-image: linear-gradient(306deg, #6a11cb 48%, #2575fc);
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    background: linear-gradient();
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    height: 50vh;
+    width: 90%;
+    max-width: 400px;
+    border: 0px solid black;
+    padding: 2rem;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 10px 1px rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+.text {
+    text-align: left;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.input-container {
+    margin-top: 35px;
+    border: none;
+    box-sizing: border-box;
+    height: 121px;
+}
+
+.input-container input {
+    margin-top: 23px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding:10px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    border-radius: 8px;
+    color: black;
+}
+::placeholder{
+    color: rgb(43, 29, 29);
+}
+
+.input-container input:last-child{
+    margin-bottom: 0px;
+}
+
+.fa-eye{
+    position: relative;
+    top: -43px;
+    right: -275px;
+}
+
+.log-button button{
+    background-color: white;
+    border: none;
+    background-color: black;
+    border-radius: 8px;
+    width: 88%;
+    margin-left: 6px;
+    padding: 8px 23px 8px 23px;
+    color: white;
+}
+.log-button {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    top: 23px;
+    cursor: pointer;
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+    margin-top: 23px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.tick {
+    margin-right: 35px;
+}
+
+.forgot-password {
+    margin-left: 30px;
+    margin-top: 3px;
+    color: #4285F4;
+}
+
+.tick input {
+    text-align: center;
+}
+
+label {
+  display: inline-flex;
+  align-items: center;
+  font-size: 13px;
+  margin-top: 2%;
+}
